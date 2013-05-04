@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styleSheet/base.css">
+<meta charset="UTF-8">
+<title>GTD</title>
+</head>
+
+<body>
+	<!--此为侧边栏用于显示番茄工作法的计时器和日历-->
+	<aside>
+		<!--此为番茄工作法的计时器及相关启动按钮-->
+		<section>
+			<!--用canvas来模拟计时器-->
+			<canvas>
+		    </canvas>
+		    <button type="button"  ><img src=""></button>
+	    </section>
+	    <!--此为日历，用于日期的快速跳转-->
+	    <section>
+	    	<header>
+			    <strong>《</strong><strong>》</strong>
+		    </header>
+		    <table>
+				<thead><tr><th></th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead>
+				<tbody>
+					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				</tbody>
+			</table>
+			<button type="button" name="today">today</button>
+			<button type="button" name="tomorrow">tomorrow</button>
+	    </section>
+	</aside>
+	<!--此为任务管理模块-->
+	<section>
+		<header><strong></strong></header>
+		<!--此为任务列表-->
+		<article>
+			<header>Tasks<button type="button" name="addition"><img src=""></button></header>
+			<footer><img src=""><strong></strong>unplanned tasks</footer>
+		</article>
+	</section>
+	<!--此为标签栏-->
+	<nav>
+		<ul>
+			<li><img src="">Tasks</li>
+			<li><img src="">Settings</li>
+			<li><img src="">Info</li>
+		</ul>
+	</nav>
+</body>
+</html>
