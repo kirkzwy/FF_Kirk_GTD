@@ -2,27 +2,30 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="styleSheet/base.css">
+<link rel="stylesheet" type="text/css" href="styleSheet/page.css">
 <meta charset="UTF-8">
 <title>GTD</title>
 </head>
 
 <body>
+	<!--此为整个主要工作界面-->
+	<section class="w800 mainWorkArea">
 	<!--此为侧边栏用于显示番茄工作法的计时器和日历-->
-	<aside>
+	<aside class="fl asideTools white w40p">
 		<!--此为番茄工作法的计时器及相关启动按钮-->
 		<section>
 			<!--用canvas来模拟计时器-->
 			<canvas>
 		    </canvas>
-		    <button type="button"  ><img src=""></button>
+		    <button type="button" class="Clesrfix"><img src=""></button>
 	    </section>
 	    <!--此为日历，用于日期的快速跳转-->
 	    <section>
 	    	<header>
-			    <strong>《</strong><strong>》</strong>
+			    <strong>《</strong><span>March 2013</span><strong>》</strong>
 		    </header>
 		    <table>
-				<thead><tr><th></th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead>
+				<thead class="gray"><tr><th></th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead>
 				<tbody>
 					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -37,20 +40,23 @@
 	    </section>
 	</aside>
 	<!--此为任务管理模块-->
-	<section>
-		<header><strong></strong></header>
+	<section class="fr w60p">
+		<header class="mt30 targetManageBorder pb30">
+			<strong class="fb f20 ml5 mr10 red">27</strong><span class="f14">March 2013</span>
+		</header>
 		<!--此为任务列表-->
-		<article>
-			<header>Tasks<button type="button" name="addition"><img src=""></button></header>
-			<footer><img src=""><strong></strong>unplanned tasks</footer>
+		<article class="mt30">
+			<header class="pb20 targetListBorder"><span class="red fb f20">Tasks</span><button type="button" name="addition" class="fr"><img src=""></button></header>
+			<footer><img src=""><strong></strong><span>unplanned tasks</span></footer>
 		</article>
 	</section>
+	</section>
 	<!--此为标签栏-->
-	<nav>
-		<ul>
-			<li><img src="">Tasks</li>
-			<li><img src="">Settings</li>
-			<li><img src="">Info</li>
+	<nav class="cb">
+		<ul class="fl">
+			<li class="fl"><img src="">Tasks</li>
+			<li class="fl"><img src="">Settings</li>
+			<li class="fl"><img src="">Info</li>
 		</ul>
 	</nav>
 </body>

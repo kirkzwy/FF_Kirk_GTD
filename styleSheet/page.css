@@ -1,0 +1,9 @@
+/*任务管理界面部分线条*/
+.targetManageBorder{border-bottom: dotted thin gray;}
+.targetListBorder{border-bottom: solid red thin;}
+
+/*侧边栏部分*/
+.asideTools{background-color: black;}
+
+/*主要工作界面*/
+.mainWorkArea{margin-left: auto; margin-right: auto;}
