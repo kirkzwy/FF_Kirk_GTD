@@ -9,7 +9,7 @@
 
 <body>
 	<!--此为整个主要工作界面-->
-	<section class="w800 mainWorkArea">
+	<section class="w800 h1000 mainWorkArea">
 	<!--此为侧边栏用于显示番茄工作法的计时器和日历-->
 	<aside class="fl asideTools white w40p">
 		<!--此为番茄工作法的计时器及相关启动按钮-->
@@ -24,19 +24,8 @@
 	    	<header>
 			    <strong>《</strong><span>March 2013</span><strong>》</strong>
 		    </header>
-		    <table>
-				<thead class="gray"><tr><th></th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead>
-				<tbody>
-					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-					<tr><th></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-				</tbody>
-			</table>
-			<button type="button" name="today">today</button>
-			<button type="button" name="tomorrow">tomorrow</button>
+		    <label for="dateSet"></label>
+		    <input type="date" name="dateSet" id="dateSet" value="2013-05-06">
 	    </section>
 	</aside>
 	<!--此为任务管理模块-->
@@ -52,7 +41,7 @@
 	</section>
 	</section>
 	<!--此为标签栏-->
-	<nav class="cb">
+	<nav class="footer w800">
 		<ul class="fl">
 			<li class="fl"><img src="">Tasks</li>
 			<li class="fl"><img src="">Settings</li>
